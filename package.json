@@ -1,0 +1,25 @@
+{
+  "name": "enerygy-tcg-api",
+  "version": "1.0.0",
+  "description": "Backend API for Energy TCG",
+  "main": "./src/app.js",
+  "scripts": {
+    "start": "node ./src/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/petitbonney/enerygy-tcg-api.git"
+  },
+  "author": "petitbonney",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/petitbonney/enerygy-tcg-api/issues"
+  },
+  "homepage": "https://github.com/petitbonney/enerygy-tcg-api#readme",
+  "type": "module",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "mongodb": "^4.13.0",
+    "pokemontcgsdk": "^2.0.0"
+  }
+}
